@@ -27,6 +27,7 @@
 .about .prompt {
     width: 40%;
     font-size: 30px;
+    margin-top: 8%;
 }
 
 .prompt svg {

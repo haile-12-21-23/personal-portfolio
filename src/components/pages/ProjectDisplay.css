@@ -2,13 +2,14 @@
     width: 100%;
     height: calc(100vh - 100px);
     display: flex;
+    margin-top: 5%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
 .project h1 {
-    margin-top: 50px;
+    margin-top: 60px;
     color: #3e497a;
     font-size: 35px;
 }
