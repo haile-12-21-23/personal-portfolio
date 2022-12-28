@@ -12,7 +12,7 @@ export const ProjectList = [
         skills: "JavaScript,HTML,CSS",
     },
     {
-        name: "Ecommerce Website",
+        name: "E-commerce Website",
         image: Proj2,
         skills: "React,Node.js,MongoDB",
     },
@@ -37,3 +37,5 @@ export const ProjectList = [
         skills: "React Native,JavaScript,HTML,CSS",
     },
 ];
+
+export default ProjectList
