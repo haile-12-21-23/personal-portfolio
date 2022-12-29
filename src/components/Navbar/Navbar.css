@@ -13,6 +13,16 @@
     color: white;
 }
 
+.links :focus {
+    display: block;
+    color: rgb(71, 225, 84);
+}
+
+.links :hover {
+    display: block;
+    color: rgb(71, 151, 225);
+}
+
 .navbar a {
     color: white;
     text-decoration: none;

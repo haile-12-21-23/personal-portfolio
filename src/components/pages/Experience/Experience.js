@@ -11,57 +11,54 @@ function Experience() {
     return (
         <div className="experience">
             <VerticalTimeline lineColor="#3e497a">
-                <VerticalTimelineElement className="vertical-timeline-element--eduction" date="2007-2010" iconStyle={{ background: "#3e497a", color: "#fff" }}
+                <VerticalTimelineElement className="vertical-timeline-element--eduction" date="2014-2016" iconStyle={{ background: "#3e497a", color: "#fff" }}
                     icon={<SchoolIcon />} >
-                    <h3 className="vertical-timeline-element-title">My High School is Dembecha Higher and Senior Secondary School </h3>
-                    <p>High School Diploma</p>
+                    <h3 className="vertical-timeline-element-title">My High School is Dembecha Preparatory  Senior and Secondary School   </h3>
+                    <p>High School Education Completed</p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    date="2014 - 2018"
+                    date="2016 - 2018"
                     iconStyle={{ background: "#3e497a", color: "#fff" }}
                     icon={<SchoolIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        My Cool University, Vancouver, British Columbia
+                        My Preparatory School is Dembecha Preparatory  Senior and Secondary School
                     </h3>
 
+
+
+                    <p> Secondary and Preparatory Eduction Completed</p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    date="2018 - 2022"
+                    iconStyle={{ background: "#3e497a", color: "#fff" }}
+                    icon={<SchoolIcon />}
+                >
+                    <h3 className="vertical-timeline-element-title">
+                        My  University, Debre Tabor University, Debre Tabor, Amhara, Ethiopia
+                    </h3>
                     <h4 className="vertical-timeline-element-subtitle">
                         Bachelor's Degree
                     </h4>
-
-                    <p> Computer Science</p>
-                </VerticalTimelineElement>
-                <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    date="2018 - 2020"
-                    iconStyle={{ background: "#e9d35b", color: "#fff" }}
-                    icon={<WorkIcon />}
-                >
-                    <h3 className="vertical-timeline-element-title">
-                        Back End Engineer - Google
-                    </h3>
-                    <h4 className="vertical-timeline-element-subtitle">
-                        San Francisco, CA
-                    </h4>
-                    <p>Developed the backend infrastructure for 3 projects.</p>
+                    <p>Computer Science</p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="2020 - present"
+                    date="2022 - present"
                     iconStyle={{ background: "#e9d35b", color: "#fff" }}
                     icon={<WorkIcon />}
                 >
                     <h3 className="vertical-timeline-element-title">
-                        Full Stack Engineer - Twitch
+                        Software Engineer-FetaTech Plc.
                     </h3>
                     <h4 className="vertical-timeline-element-subtitle">
-                        San Francisco, CA
+                        Seattle, USA
                     </h4>
                     <p>
-                        Helped the team launch 2 major features by working both in the front
-                        end and back end.
+                        Back-End developer with NodeJs and Mobile App developer with Flutter.
                     </p>
                 </VerticalTimelineElement>
 

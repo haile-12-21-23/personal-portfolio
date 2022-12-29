@@ -1,40 +1,29 @@
-import Proj1 from "../assets/proj1.jpg";
-import Proj2 from "../assets/proj2.jpg";
-import Proj3 from "../assets/proj3.webp";
-import Proj4 from "../assets/proj4.webp";
-import Proj5 from "../assets/proj5.jpg";
-import Proj6 from "../assets/proj6.png";
+import NpmPackage from "../assets/npm.png";
+import MobileApp from "../assets/Mobile-app.png";
+import FinalProject from "../assets/project.png"
+import Logger from "../assets/logger.png"
 
 export const ProjectList = [
+
     {
-        name: "Dijkstra Algorithm Visualizer",
-        image: Proj1,
-        skills: "JavaScript,HTML,CSS",
+        name: "Activity Logging NPM Package",
+        image: NpmPackage,
+        skills: "Nodejs,MongoDB, ExpressJs, JavaScript",
     },
     {
-        name: "E-commerce Website",
-        image: Proj2,
-        skills: "React,Node.js,MongoDB",
+        name: "Driving license Quiz Mobile App",
+        image: MobileApp,
+        skills: "Dart, Flutter",
     },
     {
-        name: "Spotify Clone",
-        image: Proj3,
-        skills: "React,Node.js,MongoDB,SpotifyAPI",
+        name: "Automatic Water reading meter",
+        image: FinalProject,
+        skills: "JavaScript,HTML,CSS, PHP, Arduino",
     },
     {
-        name: "Social Media Website",
-        image: Proj4,
-        skills: "React,Node.js,MySQL,GraphQL",
-    },
-    {
-        name: "Dashboard Visualizer",
-        image: Proj5,
-        skills: "JavaScript,HTML,CSS",
-    },
-    {
-        name: "Mobile Game",
-        image: Proj6,
-        skills: "React Native,JavaScript,HTML,CSS",
+        name: "Logger Internal Tool",
+        image: Logger,
+        skills: "Nodejs,MongoDB, ExpressJs, FtLogger Npm package creation",
     },
 ];
 

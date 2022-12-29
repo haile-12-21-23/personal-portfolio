@@ -7,13 +7,13 @@
 
 .about {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 300px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #21325e;
+    background-color: #215e4c;
     color: #f0f0f0;
 }
 
@@ -22,18 +22,19 @@
     font-size: 80px;
     color: #e9d35b;
     height: 50px;
+    margin-top: -1%;
 }
 
 .about .prompt {
     width: 40%;
     font-size: 30px;
-    margin-top: 8%;
+    padding-top: -3%;
 }
 
 .prompt svg {
     font-size: 60px;
     margin: 5px;
-    color: white;
+    color: rgb(155, 156, 182);
 }
 
 .skills {
