@@ -6,9 +6,17 @@ import Experience from './components/pages/Experience/Experience';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import ProjectDisplay from './components/pages/ProjectDisplay';
+import { Helmet } from 'react-helmet';
 function App() {
   return (
     <div className="App">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Hailemariam Portfolio</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="description" content="This is my personal portfolio" />
+
+      </Helmet>
       <Router>
         <Navbar />
         <Routes>

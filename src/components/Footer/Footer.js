@@ -6,6 +6,8 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn"
 import "./Footer.css"
 import GitHubIcon from '@material-ui/icons/GitHub'
 function Footer() {
+    var today = new Date();
+    var currentYear = today.getFullYear();
     return (
         <div className="footer">
             <div className="socialMedia">
@@ -17,7 +19,7 @@ function Footer() {
 
 
             </div>
-            <p>&copy; 2022 haile.com</p>
+            <p>&copy; {currentYear}. Hailemariam</p>
 
         </div>
     )
